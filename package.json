@@ -1,0 +1,29 @@
+{
+  "name": "react-uikit-cli",
+  "version": "1.0.0",
+  "description": "react uikit cli",
+  "main": "index.js",
+  "repository": "https://github.com/rismanss/react-uikit-cli",
+  "keywords": [
+    "react",
+    "cli",
+    "react-cli",
+    "uikit",
+    "uikit-cli",
+    "react-uikit-cli",
+    "component",
+    "package"
+  ],
+  "author": "Kamarul Risman <risman.kerja@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "uikit-cli": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "react": "^17.0.1"
+  }
+}
