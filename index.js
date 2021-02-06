@@ -1,4 +1,3 @@
 #!/usr/bin/env node
-'use strict'
 
-require('./lib/cli')(process.argv)
+require('./lib/cli')(process.argv);
