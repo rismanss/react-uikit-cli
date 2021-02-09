@@ -4,12 +4,14 @@
     "commonjs": true,
     "es2021": true
   },
-  "extends": ["airbnb-base"],
+  "extends": ["airbnb-base", "plugin:react/recommended"],
   "parserOptions": {
     "ecmaVersion": 12
   },
   "rules": {
     "no-console": "off",
-    "linebreak-style": 0
-  }
+    "linebreak-style": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+  },
+  "parser": "babel-eslint"
 }
