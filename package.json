@@ -1,6 +1,6 @@
 {
   "name": "react-uikit-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react uikit cli",
   "main": "index.js",
   "repository": "https://github.com/rismanss/react-uikit-cli",
@@ -17,7 +17,8 @@
   "author": "Kamarul Risman <risman.kerja@gmail.com>",
   "license": "MIT",
   "bin": {
-    "uikit-cli": "index.js"
+    "uikit-cli": "index.js",
+    "react-uikit-cli": "index.js"
   },
   "scripts": {
     "lint": "eslint .",

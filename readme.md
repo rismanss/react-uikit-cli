@@ -18,20 +18,20 @@ npx react-uikit-cli
 ```
 ### Initialized project
 ```
-npx uikit-cli init
+npx react-uikit-cli init
 ```
 ### create new uikit
 example :
 ```
-npx uikit-cli --create button
+npx react-uikit-cli --create button
 ```
 ### run watch storybook
 ```
-npx uikit-cli start:sb
+npx react-uikit-cli start:sb
 ```
 ### options & command
 ```
-npx uikit-cli --help
+npx react-uikit-cli --help
 ```
 ```
 Usage: uikit-cli [options]
