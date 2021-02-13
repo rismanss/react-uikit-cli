@@ -17,14 +17,14 @@ Button.propTypes = {
   label: PropTypes.string,
   disabled: PropTypes.bool,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  variant: PropTypes.oneOf(['primary', 'secondary']),
+  variant: PropTypes.oneOf(['primary', 'secondary', 'danger', 'success']),
 };
 
 Button.defaultProps = {
   label: 'Button',
   disabled: false,
   size: 'medium',
-  variant: 'primary',
+  variant: 'secondary',
 };
 
 export default Button;

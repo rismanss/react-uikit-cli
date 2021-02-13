@@ -1,0 +1,69 @@
+.in-input {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 0;
+  border-radius: 0.3em;
+  line-height: 1;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.input-disabled {
+  color: gray;
+  background-color: whitesmoke;
+  cursor: not-allowed;
+}
+
+.input-primary {
+  color: #1ea7fd;
+  border: 1px solid #1ea7fd;
+}
+
+.input-primary::-webkit-input-placeholder {
+  color: #1ea7fd;
+  opacity: 0.6;
+}
+
+.input-secondary {
+  color: #333;
+  border: 1px solid #333;
+}
+
+.input-secondary::-webkit-input-placeholder {
+  color: #333;
+  opacity: 0.6;
+}
+
+.input-danger {
+  color: #f0506e;
+  border: 1px solid #f0506e;
+}
+
+.input-danger::-webkit-input-placeholder {
+  color: #f0506e;
+  opacity: 0.6;
+}
+
+.input-success {
+  color: #32d296;
+  border: 1px solid #32d296;
+}
+
+.input-success::-webkit-input-placeholder {
+  color: #32d296;
+  opacity: 0.6;
+}
+
+.input-small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.input-medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.input-large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

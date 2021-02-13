@@ -2,7 +2,7 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 3em;
+  border-radius: 0.3em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
@@ -24,6 +24,16 @@
   color: #333;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.button-danger {
+  color: white;
+  background-color: #f0506e;
+}
+
+.button-success {
+  color: white;
+  background-color: #32d296;
 }
 
 .button-small {
