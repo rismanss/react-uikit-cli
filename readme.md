@@ -13,25 +13,22 @@
 npm install -g react-uikit-cli
 ```
 ### Usage with npx
-```
-npx react-uikit-cli
-```
-### Initialized project
+Initialized project :
 ```
 npx react-uikit-cli init
 ```
 ### create new uikit
 example :
 ```
-npx react-uikit-cli --create button
+react-uikit-cli --create button
 ```
 ### run watch storybook
 ```
-npx react-uikit-cli start:sb
+react-uikit-cli start:sb
 ```
 ### options & command
 ```
-npx react-uikit-cli --help
+react-uikit-cli --help
 ```
 ```
 Usage: uikit-cli [options]
