@@ -4,6 +4,7 @@
   "description": "react uikit cli",
   "main": "index.js",
   "repository": "https://github.com/rismanss/react-uikit-cli",
+  "homepage": "https://rismanss.github.io/react-uikit-cli",
   "keywords": [
     "react",
     "cli",
@@ -23,6 +24,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
+    "build-storybook": "build-storybook",
     "storybook": "start-storybook -p 9001"
   },
   "dependencies": {
