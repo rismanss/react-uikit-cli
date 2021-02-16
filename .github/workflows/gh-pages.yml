@@ -1,7 +1,7 @@
 name: Build and Deploy
 on: [push]
   # push:
-    # paths: ["stories/**", "src/components/**"] # Trigger the action only when files change in the folders defined here
+    # paths: ["template/**", ".storybook/**"] # Trigger the action only when files change in the folders defined here
 jobs:
   build-and-deploy:
     runs-on: ubuntu-20.04
