@@ -5,7 +5,7 @@ import './switch.css';
 const Switch = (props) => {
   const className = [`slider-${props.variant}`, 'round'].join(' ');
   return (
-    <div className='wrapper'>
+    <div>
       <label className='switch'>
         <input {...props} type='checkbox'/>
         <span className={className}></span>
