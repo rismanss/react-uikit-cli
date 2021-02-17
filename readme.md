@@ -9,6 +9,7 @@
 	- [Button](https://rismanss.github.io/react-uikit-cli/?path=/docs/button--example)
 	- [Input](https://rismanss.github.io/react-uikit-cli/?path=/docs/input--example)
 	- [Switch](https://rismanss.github.io/react-uikit-cli/?path=/docs/switch--example)
+  - [Spinner](https://rismanss.github.io/react-uikit-cli/?path=/docs/spinner--example)
 
 ## Getting started
 ### Install globally
